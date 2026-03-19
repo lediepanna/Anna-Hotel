@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Anna Hotel
 
-# Run and deploy your AI Studio app
+This is a simple hotel booking web app built with React and Vite.
 
-This contains everything you need to run your app locally.
+## Run the project
 
-View your app in AI Studio: https://ai.studio/apps/3cc5de18-f8e5-45eb-8b37-fa0b91e8ca96
+Make sure you have Node.js installed.
 
-## Run Locally
+Then open the project in terminal and run:
 
-**Prerequisites:**  Node.js
+npm install
+npm run dev
 
+After that, open:
+http://localhost:3000
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Features
+
+* View rooms
+* Book a room
+* Save booking in localStorage
+
+## Notes
+
+If something doesn't work, try running npm install again.
+
+## About
+
+This project is made for learning purposes.
